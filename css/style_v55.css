@@ -1,0 +1,1126 @@
+@font-face{
+  font-family: Assistant-Bold;
+  src: url(../font/Assistant-Bold.ttf);
+}
+@font-face{
+  font-family: Assistant-ExtraBold;
+  src: url(../font/Assistant-ExtraBold.ttf);
+}
+@font-face{
+  font-family: Assistant-ExtraLight;
+  src: url(../font/Assistant-ExtraLight.ttf);
+}
+
+@font-face{
+  font-family: Assistant-Light;
+  src: url(../font/Assistant-Light.ttf);
+}
+
+@font-face{
+  font-family: Assistant-Regular;
+  src: url(../font/Assistant-Regular.ttf);
+}
+
+@font-face{
+  font-family: Assistant-SemiBold;
+  src: url(../font/Assistant-SemiBold.ttf);
+}
+
+@font-face{
+  font-family: Lora-Bold;
+  src: url(../font/Lora-Bold.ttf);
+}
+
+@font-face{
+  font-family: Lora-BoldItalic;
+  src: url(../font/Lora-BoldItalic.ttf);
+}
+
+@font-face{
+  font-family: Lora-Italic;
+  src: url(../font/Lora-Italic.ttf);
+}
+
+@font-face{
+  font-family: Lora-Regular;
+  src: url(../font/Lora-Regular.ttf);
+}
+
+*{
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  background-color: #000000;
+  color:#FFFFFF;
+}
+
+header, nav, main, footer{
+}
+
+a{
+  text-decoration:none;
+  color:#FFFFFF;
+}
+a:hover, a:visited, a:link, a:active {
+  text-decoration:none;
+  color:#FFFFFF;
+}
+
+section {
+}
+
+#iconAlign{
+
+}
+
+#officeInfo{
+  margin: 0 auto;
+  align-items: center;
+  font-size: 0.9rem;
+  font-family: Assistant-Light;
+}
+
+header{
+  margin: 0 auto;
+}
+
+.pruebaDisplayNone{
+  display: none;
+}
+
+#myNavbar{
+  color: #686969 !important;
+  font-family: Assistant-Light;
+  font-size: 1rem;
+}
+
+#linkMenu{
+  color:#ffffff ;
+}
+
+#menuSeparation{
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
+#menuSeparation:hover{
+  border-style: solid;
+  border-top-color: #FFFFFF;
+  border-top-width: 1px;
+  color: #FFFFFF;
+}
+
+#logoImg{
+  width: 14%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#navbar{
+  padding:0 !important;
+  display: none;
+}
+
+button:focus {
+ outline: 0;
+}
+
+
+#bgBlack{
+  background: #000000;
+}
+
+#bgTransparent{
+  background-color: transparent;
+}
+
+.navbar-expand-md.scrolled{
+ background-color: #000000 !important;
+ transition: background-color 200ms linear; 
+}
+
+#botonMenuMobile{
+  margin-top: -22px;
+  border-color: #26607a;
+  border-width: 2px;
+}
+
+#home{
+  background-image: url(../img/fondo_home.jpg);
+  margin:0 auto;
+  text-align: center;
+  min-height: 123vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.alignCenter{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#homeText{
+  padding-top: 149px;
+  font-family: Lora-Regular;
+}
+
+#homeTextTitle{
+  font-size:2.5rem;
+}
+
+#homeTextDetail{
+  font-size: 1.2rem;
+  font-family: Assistant-Light;
+  padding:1%;
+}
+
+#homeContactButton{
+  font-size: 1.3rem;
+  font-family: Assistant-ExtraBold;
+  padding: 1%;
+  margin-top: 3%;
+  color: #26607a;
+  margin-bottom: 10%;
+  background-color: #FFFFFF;
+  border-style: outset;
+  border-color: buttonface;
+  border-width: 2px;
+}
+
+#about{
+  background-image: url(../img/quienes_somos.jpg);
+  text-align: center;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+.services{
+  background-color: #1B1D20;
+  /* margin: 10%; */
+  font-size: 0.9rem;
+  font-family: Assistant-SemiBold;
+  /* padding: 10px; */
+  margin-top: 3%;
+  margin-left: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.servicesDetail{
+  background-color: #1B1D20;
+  margin: 10%;
+  font-size: 0.8rem;
+  font-family: Assistant-Light;
+  /* padding: 10px; */
+  /* margin-top: 3%; */
+  margin-left: -6%;
+  padding-top: 1% !important;
+  padding: 10%;
+  width: 121%;
+  line-height: 1.1rem;
+}
+
+.servicesDetailTwo{
+  background-color: #1B1D20;
+  margin: 15%;
+  font-size: 0.8rem;
+  font-family: Assistant-Light;
+  /* padding: 10px; */
+  /* margin-top: 3%; */
+  margin-left: -6%;
+  padding-top: 1% !important;
+  padding: 10%;
+  width: 121%;
+  line-height: 1.1rem;
+}
+
+#smallLetter{
+  font-size: 0.7rem;
+}
+
+#servicesStyle{
+  float: right;
+  margin-top: 8%;
+  text-align: left;
+  margin-right: 13%;
+}
+
+#servicesStyleTwo{
+  float: right;
+  margin-top: 6%;
+  text-align: left;
+  margin-right: 9%;
+}
+
+#servicesStyleThree{
+  float: right;
+  margin-top: 9%;
+  text-align: left;
+  margin-right: 4%;
+  margin-left: 2%;
+}
+#servicesStyleThreeCont{
+  padding-right: 6%;
+}
+#enterpriseHover{
+  box-sizing: content-box;
+}
+
+.alignTextEnterpriseHover{
+  margin-right: 15%;
+}
+
+#hrHover, #contHover, #startHover, #enterpriseHover{
+  display:none;
+  position: absolute;
+}
+
+.btnDetailServicesRecursos{
+  display: none;
+}
+.btnDetailServices{
+  display: none;
+}
+.btnDetailServicesPuestaEnMarcha{
+  display: none;
+}
+.btnDetailServicesReinicio{
+  display: none;
+}
+
+#aboutTitleOne{
+ font-family: Assistant-Light;
+ font-size: 1.2rem;
+ padding-top: 1%;
+}
+
+#aboutTitleTwo{
+ font-family: Lora-Regular;
+ font-size: 3rem
+}
+
+#aboutLine{
+  border-bottom-width: 0.2rem;
+  border-bottom-color: #FFFFFF;
+  border-bottom-style: solid;
+  margin: 0 auto;
+  width: 11%;
+  padding: 0.5%;
+  border-color:#26607a;
+}
+
+#aboutText{
+  font-size: 1.1rem;
+  padding-top: 1%;
+  padding-top: 3%;
+  font-family: Assistant-Regular;
+}
+
+#aboutStrong{
+  font-weight: bold;
+}
+
+#aboutLineBot{
+  border-bottom-width: 0.2rem;
+  border-bottom-color: #FFFFFF;
+  border-bottom-style: solid;
+  width: 73%;
+  border-color:#26607a;
+  margin-top: -8px;
+}
+
+#contactForm{
+  background-image: url(../img/fondo_formulario.jpg);
+  min-height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+}
+
+#formCenter{
+  min-width: 20rem;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  max-width: 24rem;
+}
+
+#formAlign{
+  border: solid;
+  margin: 0 auto;
+  border-color:#26607a;
+}
+
+#formConnect{
+  font-size: 0.9rem;
+  color:#000000;
+  font-family: Assistant-Light;
+  margin-top: 2%
+}
+
+#formEvaluate{
+  font-size: 1.2rem;
+  font-family: Lora-Regular;
+  color: #26607a;
+  padding: 10px;
+}
+
+#formText{
+  font-size: 0.8rem;
+  font-family: Assistant-Regular;
+  color:#000000; 
+}
+
+input{
+  width: 80%;
+  padding: 1%;
+  font-family: Assistant-Regular;
+  font-size: 0.8rem;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 0.8rem;
+  font-family: Assistant-Regular;
+  color: #7d7d7d;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  font-size: 0.8rem;
+  font-family: Assistant-Regular;
+  color: #7d7d7d;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  font-size: 0.8rem;
+  font-family: Assistant-Regular;
+  color: #7d7d7d;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  font-size: 0.8rem;
+  font-family: Assistant-Regular;
+  color: #7d7d7d;
+}
+
+textarea {
+  resize: none;
+  width: 80%;
+  padding: 2%;
+}
+
+#btnSubmitForm{
+  font-size: 0.9rem;
+  color: #FFFFFF;
+  background-color: #26607a;
+  font-family: Assistant-Bold;
+  padding: 3%;
+  border-style: none;
+  width: 40%;
+}
+
+.success{
+  /* border: 1px solid #B9ECCE; */
+  /* border-radius: 5px; */
+  color: #26607a;
+  font-family: Assistant-Light;
+}
+
+.error{
+  color: #26607a;
+  text-align: center;
+  font-family: Assistant-Light;
+}
+
+#footer{
+  margin-top: 3%;
+  font-family: Assistant-Light;
+}
+
+#footerNav{
+  color:#686969;
+}
+
+
+#footerMenu{
+  color:#686969;
+}
+
+#footerLine{
+  border-bottom-width: 0.1rem;
+  border-bottom-color: #686969;
+  border-bottom-style: solid;
+  /* margin: 0 auto; */
+  width: 100%;
+  padding: 1.5%;
+  margin-bottom: 1%;
+}
+
+#footerLogo{
+  width: 10.12rem;
+}
+
+#footerNavLineHome , #footerNavLineAbout, #footerNavLineUs, #footerNavLineContact{
+  border-bottom-color: #FFFFFF;
+  border-bottom-style: solid;
+  border-width: 1px;
+  min-width: 24%;
+  max-width: 100%;
+  width: 60px;
+  display:none;
+}
+
+.imgWsp{
+  height: 17px;
+}
+
+#fbIcon{
+  width: 0.6rem;
+}
+
+
+#derechos{
+  color:#686969;
+  float: right;
+  font-family: Assistant-Light;
+  font-size: 0.7rem;
+  margin-bottom: 2%;
+  margin-top: 5px;
+}
+
+.footerMenuColor{
+  color:#686969 !important;
+}
+
+.footerMenuColor:hover{
+  color:#FFFFFF !important;
+  border-bottom-color: #FFFFFF;
+  border-bottom-style: solid;
+  border-width: 1px;
+  min-width: 24%;
+  max-width: 100%;
+  width: 60px;
+}
+
+.footerOfficeColor{
+  color:#686969 !important;
+}
+
+.modal-content-modalOnPageLoad{
+  background-color: #000000;
+  color:#FFFFFF;
+}
+
+.btnModalOnPageLoad{
+  font-size: 2rem !important;
+  color: #26607a !important;
+  font-family: Assistant-Bold !important;
+}
+
+/* media query */
+
+@media screen and (min-width: 1920px) {
+
+  #aboutCont{
+    margin-top: 17%;
+  }
+
+  #formCenter {
+    margin-top: 10%;
+  }
+
+}
+
+@media (max-width: 1441px) {
+
+  #rowServicios{
+    margin-top: 40px;
+  }
+
+  #aboutCont{
+    margin-top: 50px;
+  }
+  #formCenter{
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 1370px) {
+
+  #aboutCont{
+    margin-top: 6%;
+  }
+
+  #formCenter {
+    margin-top: 6%;
+  }
+}
+
+@media (max-width: 1366px) {
+  #formCenter{
+    margin-top: 0px;
+  }  
+}
+
+@media (max-width: 1280px) {
+  #rowServicios{
+    margin-top: 0px;
+  }
+  #servicesStyleThreeCont{
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #rowServicios{
+    margin-top:100px;
+  }
+
+  #aboutCont{
+    margin-top:100px;
+  }
+
+  #aboutText{
+    margin-top: 64px;
+  }
+  
+  #formCenter{
+    margin-top: 360px;
+  }
+}
+
+@media (width: 800px){
+  #rowServicios{
+    margin-top: 100px;
+  }
+
+  #aboutText{
+    margin-top: 60px;
+  }
+
+  #formCenter{
+    margin-top: 285px !important;
+  }
+
+  #hrHover, #contHover, #enterpriseHover{
+    margin-top: 65px;
+  }
+  #startHover{
+    margin-top: 80px;
+  }
+  #enterpriseHover{
+    margin-top: 78px;
+  }
+}
+ 
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+  #aboutCont{
+    margin-top: 14%;
+  }
+  #formCenter {
+    margin-top: 14%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  #hrHover, #contHover, #startHover, #enterpriseHover{
+    display:none !important;
+  }
+
+  #formCenter{
+    margin-top: 210px;
+  }
+  
+  .pruebaDisplayNone{
+    display: flex !important;
+  }
+
+  .btnDetailServices{
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    background-color: #26607a;
+    font-family: Assistant-Bold;
+    padding: 10%;
+    border-style: none;
+    margin-top: 20%;
+    margin-bottom: 16%;
+    display: inline-block !important;
+  }
+  .btnDetailServicesRecursos{
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    background-color: #26607a;
+    font-family: Assistant-Bold;
+    padding: 10%;
+    border-style: none;
+    margin-top: 20%;
+    margin-bottom: 16%;
+    display: inline-block !important;
+  }
+
+  .btnDetailServicesPuestaEnMarcha {
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    background-color: #26607a;
+    font-family: Assistant-Bold;
+    padding: 10%;
+    border-style: none;
+    margin-top: 32%;
+    margin-bottom: 16%;
+    display: inline-block !important;
+  }
+
+  .btnDetailServicesReinicio {
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    background-color: #26607a;
+    font-family: Assistant-Bold;
+    padding: 11%;
+    border-style: none;
+    margin-top: 30%;
+    margin-bottom: 16%;
+    display: inline-block !important;
+    /* padding: 3%; */
+    /* text-align: center; */
+    /* float: right; */
+  }
+
+  .modal-fullscreen-xs-down {
+    padding: 0 !important;
+  }
+
+  .modal-dialog{
+    margin-top: 250px !important;
+  }
+
+  .modal-fullscreen-xs-down .modal-content {
+    height: auto;
+    min-height: 100%;
+    border: 0 none;
+    border-radius: 0;
+  }
+  .modal-title{
+    font-size: 1.1rem;
+    padding-top: 1%;
+    padding-top: 3%;
+    font-family: Assistant-Regular;
+  }
+  .modal-body{
+    font-size: 0.9rem;
+    padding-top: 1%;
+    padding-top: 3%;
+    font-family: Assistant-Regular;
+  }
+  .modal-header{
+    border-bottom: 0px !important;
+  }
+  .modal-content{
+    background-color: #000000;
+    color:#FFFFFF;
+  }
+
+  .modal-footer{
+    border-bottom: 0px !important;
+  }
+
+  .btnCerrarModal{
+    font-size: 1.1rem;
+    color: #FFFFFF;
+    background-color: #26607a;
+    font-family: Assistant-Bold;
+    padding: 3%;
+    border-style: none;
+    margin-top: 20%;
+    margin-bottom: 16%;
+    float: right;
+    margin-right: 10%;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  #officeInfo, #myNavbar{
+    display:none;
+  }
+
+  #navbar{
+    display:flex !important;
+    font-family: Assistant-Light;
+  }
+
+}
+
+
+@media screen and (max-width: 425px) {
+
+  #hrHover, #contHover, #startHover, #enterpriseHover{
+    display:none !important;
+  }
+}
+
+
+@media screen and (max-width:539px) and (min-width:382px) {
+  .fixMenuBottom {
+    margin-left: 15%;
+  }
+}
+
+@media screen and (min-width: 1369px) and (max-width:1370px)
+#formCenter {
+  margin-top: 0px;
+}
+
+/* icono menu*/
+.navbar-light .navbar-toggler-icon {
+  background-image: url(data:image/svg+xml;..);
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/*MODAL*/
+@media (max-width: 767px) {
+  .modal-fullscreen-xs-down {
+    padding: 0 !important;
+  }
+
+  .btnDetailServicesRecursos{
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    background-color: #26607a;
+    font-family: Assistant-Bold;
+    padding: 10%;
+    border-style: none;
+    margin-top: 38%;
+    margin-bottom: 16%;
+    display: inline-block !important;
+  }
+
+  .btnDetailServicesPuestaEnMarcha{
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    background-color: #26607a;
+    font-family: Assistant-Bold;
+    padding: 10%;
+    border-style: none;
+    margin-top: 37%;
+    margin-bottom: 16%;
+    display: inline-block !important;
+  }
+
+  .btnDetailServicesReinicio {
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    background-color: #26607a;
+    font-family: Assistant-Bold;
+    padding: 10%;
+    border-style: none;
+    margin-top: 20%;
+    margin-bottom: 16%;
+    display: inline-block !important;
+    padding: 3%;
+    /* text-align: center; */
+    float: right;
+  }
+
+  .modal-dialog{
+    max-width: 600px !important;
+    margin: 0 auto !important;
+  }
+
+  .modal-fullscreen-xs-down .modal-dialog {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .modal-fullscreen-xs-down .modal-content {
+    height: auto;
+    min-height: 100%;
+    border: 0 none;
+    border-radius: 0;
+  }
+  .modal-title{
+    font-size: 1.1rem;
+    padding-top: 1%;
+    padding-top: 3%;
+    font-family: Assistant-Regular;
+  }
+  .modal-body{
+    font-size: 0.9rem;
+    padding-top: 1%;
+    padding-top: 3%;
+    font-family: Assistant-Regular;
+  }
+  .modal-header{
+    border-bottom: 0px !important;
+  }
+  .modal-content{
+    background-color: #000000;
+    color:#FFFFFF;
+  }
+
+  .modal-footer{
+    border-bottom: 0px !important;
+  }
+
+  .btnCerrarModal{
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    background-color: #26607a;
+    font-family: Assistant-Bold;
+    padding: 5%;
+    border-style: none;
+    margin-top: 20%;
+    margin-bottom: 16%;
+    float: right;
+    margin-right: 10%;
+  }
+
+}
+
+@media (max-width: 640px) {
+  .btnDetailServicesRecursos{
+    margin-top: 19px;
+  }
+
+  .btnDetailServices{
+    margin-top: 5px;
+  }
+
+  .btnDetailServicesReinicio{
+    padding: 10px;
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .btnDetailServicesRecursos{
+    margin-top: 20px;
+  }
+
+  .btnDetailServices{
+    margin-top: 7px;
+  }
+
+  .btnDetailServicesPuestaEnMarcha{
+    margin-top: 34px;
+  }
+
+  .btnDetailServicesReinicio{
+    padding: 9px;
+  }
+  
+  #rowServicios{
+    padding-top: 30px;
+  }
+
+  #aboutCont{
+    margin-top: 50px;
+  }
+
+  #aboutText{
+    margin-top: 40px;
+  }
+
+  #formCenter{
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 539px) {
+
+  #officeInfo{
+    display:none !important;
+  }
+  #logoImg {
+    width: 40%;
+  }
+
+  #ulFooterMenu{
+    font-size: 13px;
+    margin-left: 46px;
+  }
+
+  #logoFoot{
+    margin-left: 21%;
+    margin-bottom: 8%;
+  }
+  #footerLogo{
+    width: 15.12rem;
+  }
+
+  #hiddenDivFooter{
+    display:none;
+  }
+
+  #footerMenu{
+    font-size: 13px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .btnDetailServicesPuestaEnMarcha{
+    margin-top: 13px;
+  }
+
+  .btnDetailServicesReinicio{
+    padding: 7px;
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+
+  #footerLogo {
+    width: 12.12rem;
+  }
+
+  #ulFooterMenu{
+    margin-left: 34px;
+
+  }
+
+  .btnDetailServicesRecursos{
+    margin-top: 18%;
+  }
+
+  .btnDetailServices{
+    margin-top: 16%;
+  }
+  .btnDetailServicesPuestaEnMarcha{
+    margin-top: 31%;
+  }
+
+  .btnDetailServicesReinicio{
+    padding: 10px;
+    float: inherit;
+    margin-top: 18px;
+    margin-bottom: 10px;
+  }
+
+  #formCenter{
+    margin-top: 0px;
+  }
+
+  #rowServicios {
+    margin-top: 0px;
+    padding-top:0px;
+  }
+  #servicesStyleThree{
+    margin-top: 13px;
+  }
+
+}
+
+@media (max-width: 384px) {
+  
+  .btnDetailServicesReinicio{
+    margin-right: 35px;
+  }
+
+  .btnDetailServicesRecursos{
+    margin-top: 28px;
+    padding: 8px;
+  }
+
+  .btnDetailServicesPuestaEnMarcha{
+    margin-top: 41px;
+  }
+  #formCenter{
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 375px) {
+  
+  .btnDetailServicesReinicio{
+    margin-right: 8px;
+    margin-bottom: 13px;
+  }
+
+  .btnDetailServicesRecursos{
+    margin-top: 34%;
+  }
+
+  .btnDetailServicesPuestaEnMarcha{
+    margin-top: 49%;
+    padding: 11%;
+  }
+
+  #formCenter{
+    margin-top:0px;
+  }
+}
+
+@media (max-width: 360px) {
+
+  .btnDetailServicesRecursos{
+    margin-top: 34%;
+  }
+
+  .btnDetailServicesPuestaEnMarcha{
+    margin-top: 33%;
+  }
+  
+  #formCenter{
+    margin-top:0px;
+  }
+}
+
+@media (max-width: 320px) {
+
+  #servicesStyleTwo{
+    margin-right: 24px;
+  }
+
+  #footerLogo {
+    width: 12.12rem;
+  }
+
+  #logoFoot {
+    margin-left: 18%;
+    margin-bottom: 8%;
+  }
+
+  .btnDetailServicesRecursos{
+    margin-top:20%;
+    padding: 12px;
+  }
+  
+  .btnDetailServicesReinicio{
+    padding: 11%;
+    float: inherit;
+    margin-right: -2px;
+  }
+
+  .btnDetailServicesPuestaEnMarcha{
+    margin-top: 14%;
+    padding: 10%;
+  }
+  .btnDetailServices{
+    margin-top: 20%;
+  }
+
+
+}
+/*FALTA 640 */
