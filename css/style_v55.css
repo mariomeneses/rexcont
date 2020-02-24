@@ -516,16 +516,56 @@ textarea {
 }
 
 .modal-content-modalOnPageLoad{
-  background-color: #000000;
   color:#FFFFFF;
-  border-radius: 10px;
+  border: 0.4em solid #3f5f76;
+  width: 100%;
+  text-align: center;
 }
 
-.btnModalOnPageLoad{
-  font-size: 2rem !important;
-  color: #26607a !important;
-  font-family: Assistant-Bold !important;
+.modal-body{
+  background-image: url(../img/promo-enero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
+
+#ponemosEnMarcha{
+  font-family: Lora-Bold;
+  font-size: 2.4rem;
+  color: #b4b4b4;
+  margin-top: 10%;
+}
+
+#tuNegocio{
+  font-family: Lora-Bold;
+  font-size: 4.3rem;
+  color: #3f5f76;
+}
+
+#textModalOnLoad{
+  font-family: Lora-Regular;
+  font-size: 1.32rem;
+  color: #b4b4b4;
+  line-height: 32px;
+  display:flex;
+  align-content: center;
+}
+
+.modal-backdrop {
+   background-color: black;
+   opacity:0.9 !important;
+}
+
+#btnModalOnPageLoad{
+  background-color:#3f5f76;
+  font-family: Lora-Bold;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  border-style: none;
+  padding: 10px;
+  margin-bottom: 10%;
+}
+
 
 /* media query */
 
@@ -1122,6 +1162,9 @@ textarea {
     margin-top: 20%;
   }
 
+  #tuNegocio {
+    font-size: 3.6rem;
+  }
 
 }
 /*FALTA 640 */

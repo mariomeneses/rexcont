@@ -338,14 +338,15 @@
 		<div class="modal fade" id="modalOnPageLoad" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered">
 				<div class="modal-content-modalOnPageLoad">
-					<div class="modal-header">
-						<h4 class="modal-title">Modal Header</h4>
-						<button type="button" class="close btnModalOnPageLoad" data-dismiss="modal" aria-hidden="true">&times;</button>
-					</div>
 					<div class="modal-body">
-						<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et eros leo. Aliquam non sapien pellentesque, pulvinar diam finibus, posuere eros. Suspendisse potenti. Vestibulum sed lorem orci. Nulla vel ipsum orci. Cras suscipit auctor ligula, posuere ullamcorper ante gravida et. Ut vel leo vehicula, scelerisque tellus nec, mollis erat. Nulla eleifend consectetur dictum. Curabitur quis scelerisque massa, eu eleifend massa. Donec a faucibus turpis. Nunc dapibus accumsan tellus et viverra. Etiam sed mattis felis, non commodo ipsum. Donec tristique mi fringilla gravida condimentum. Integer finibus sed libero ac eleifend. Mauris quis leo a lectus ultrices sodales eu a risus. </p>
-					</div>
-					<div class="modal-footer">
+						<p id="ponemosEnMarcha">PONEMOS EN MARCHA</p>
+						<p id="tuNegocio">TU NEGOCIO</p>
+						<br>
+						<p id="textModalOnLoad">Nos adaptamos a las necesidades de tu Pyme,
+							con a&ntilde;os de experiencia y la mejor asesor&iacute;a.
+							Te invitamos a conocer una propuesta para ti.</p>
+						<br><br>
+						<button id="btnModalOnPageLoad"><a href="http://www.google.com">¡CONT&Aacute;CTANOS!</a></button>
 					</div>
 				</div>
 			</div>
